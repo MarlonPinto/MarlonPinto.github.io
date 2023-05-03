@@ -8163,6 +8163,9 @@ textarea.form-control-lg {
 .text-uppercase {
   text-transform: uppercase !important;
 }
+.text-center.text-xxl-start .badge.bg-gradient-primary-to-secondary.text-white.mb-4 .text-uppercase {
+}
+
 
 .text-capitalize {
   text-transform: capitalize !important;
