@@ -11,6 +11,36 @@
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/main/LICENSE)
  */
 :root {
+  /* Personalized Paletes:*/
+  /* BeautyBlacks:*/
+  --pp-bblack1:#0D1015;
+  --pp-bblack2:##192732
+  --pp-bblack3:#1C202B;
+  --pp-bblack4:#171A21;
+  --pp-bblack5:hsl(224 21% 5% / 1);;
+  /* Perfect Tornasol:*/
+  --pp-ptornasol1:#11052D;
+  --pp-ptornasol2:#4835A1;
+  --pp-ptornasol3:#131339;
+  --pp-ptornasol4:#182B49;
+  --pp-ptornasol3:#2E66A1;
+  --pp-ptornasol4:#29245E;
+  --pp-ptornasol4:#0F0D23;
+  /* Clear Two:*/
+  --pp-cleartwo1:#0D0D0D;
+  --pp-cleartwo2:#00010D;
+  --pp-cleartwo3:#025959;
+  --pp-cleartwo4:#F2B138;
+  --pp-cleartwo5:#D98B2B;
+  /* Clear Two:*/
+  --pp-dpurples1:#04040D;
+  --pp-dpurples2:#0B0326;
+  --pp-dpurples3:#180D40;
+  --pp-dpurples4:#140A59;
+  --pp-dpurples5:#024959;
+
+  /* Personalized Paletes.*/
+  
   --bs-blue: #1e30f3;
   --bs-indigo: #6610f2;
   --bs-purple: #6f42c1;
@@ -99,7 +129,7 @@ body {
   line-height: var(--bs-body-line-height);
   color: var(--bs-body-color);
   text-align: var(--bs-body-text-align);
-  background-color: var(--bs-body-bg);
+  background-color: #0d1015;
   -webkit-text-size-adjust: 100%;
   -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
 }
@@ -2845,19 +2875,19 @@ textarea.form-control-lg {
 
 .btn-primary {
   --bs-btn-color: #fff;
-  --bs-btn-bg: #1e30f3;
-  --bs-btn-border-color: #1e30f3;
+  --bs-btn-bg: #351ef3;
+  --bs-btn-border-color: #351ef3;
   --bs-btn-hover-color: #fff;
-  --bs-btn-hover-bg: #1a29cf;
-  --bs-btn-hover-border-color: #1826c2;
+  --bs-btn-hover-bg: #2414ab;
+  --bs-btn-hover-border-color: #2414ab;
   --bs-btn-focus-shadow-rgb: 64, 79, 245;
   --bs-btn-active-color: #fff;
-  --bs-btn-active-bg: #1826c2;
-  --bs-btn-active-border-color: #1724b6;
+  --bs-btn-active-bg: #2414ab;
+  --bs-btn-active-border-color: #2414ab;
   --bs-btn-active-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
   --bs-btn-disabled-color: #fff;
-  --bs-btn-disabled-bg: #1e30f3;
-  --bs-btn-disabled-border-color: #1e30f3;
+  --bs-btn-disabled-bg: #351ef3;
+  --bs-btn-disabled-border-color: #351ef3;
 }
 
 .btn-secondary {
@@ -11558,12 +11588,12 @@ html {
 }
 
 .bg-gradient-primary-to-secondary {
-  background: #1e30f3;
-  background: linear-gradient(135deg, #1e30f3 0%, #e21e80 100%);
-}
+ background: #351ef3;
+ background: linear-gradient(135deg, #351ef3 0%, rgba(13,16,21,1) 65%);
+ }
 
 .text-gradient {
-  background: -webkit-linear-gradient(315deg, #1e30f3 0%, #e21e80 100%);
+  background: -webkit-linear-gradient(211deg, #1e29f3 0%, #f21d13 75%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
@@ -11614,7 +11644,7 @@ html {
   top: 6.05vw;
 }
 .profile .dots-2 svg {
-  fill: #1e30f3;
+  fill: #351ef3;
 }
 .profile .dots-3 {
   position: absolute;
@@ -11632,7 +11662,7 @@ html {
   bottom: 4vw;
 }
 .profile .dots-4 svg {
-  fill: #1e30f3;
+  fill: #351ef3;
 }
 
 @media (min-width: 576px) {
