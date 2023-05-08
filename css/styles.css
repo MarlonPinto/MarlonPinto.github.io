@@ -127,7 +127,7 @@ body {
   font-size: var(--bs-body-font-size);
   font-weight: var(--bs-body-font-weight);
   line-height: var(--bs-body-line-height);
-  color: var(--bs-body-color);
+  color: var(--bs-gray-300);
   text-align: var(--bs-body-text-align);
   background-color: #0d1015;
   -webkit-text-size-adjust: 100%;
@@ -8273,7 +8273,7 @@ textarea.form-control-lg {
 
 .text-muted {
   --bs-text-opacity: 1;
-  color: #6c757d !important;
+  color: var(--bs-gray-500) !important;
 }
 
 .text-black-50 {
@@ -11625,8 +11625,9 @@ html {
   max-height: 45rem;
   position: absolute;
   bottom: 0;
-  left: 50%;
+  left: 57%;
   transform: translateX(-50%);
+  border-bottom-right-radius: 5vw;
 }
 .profile .dots-1 {
   position: absolute;
